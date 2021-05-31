@@ -1,0 +1,254 @@
+
+/* navbar */
+.navbar{
+    position: relative;
+    z-index: 1;
+    background-color: white;
+}
+
+.navbar-brand{
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: inline;
+}
+
+.navbar-nav{
+    margin: auto;
+}
+
+/* jumbotron */
+.jumbotron{
+    background-image: url(img/img1.jpg);
+    background-size: cover;
+    height: 700px;
+    text-align: center;
+    position: relative;
+}
+
+.jumbotron .display-4{
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+    margin-top: 240px;
+}
+
+.jumbotron .lead {
+    color: black;
+    font-size: 18px;
+}
+
+.about h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+}
+
+.about p{
+    font-family: 'Satisfy', cursive;
+    color: #FB9100;
+    font-size: 18px;
+}
+
+.about .lorem{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    color: black;
+    margin-top: -25px;
+}
+
+.menu {
+    margin-top: 120px;
+    background: #F6F6FF;
+}
+
+.menu h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 36px;
+    margin-top: 25px;
+}
+
+.menu .discover {
+    font-family: 'Satisfy', cursive;
+    color: #FB9100;
+    font-size: 18px;
+}
+
+.chef {
+    margin-top: 20px;
+}
+
+.chef p{
+    color: #FB9100;
+    font-size: 18px;
+}
+
+.chef .kitchen{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 48px;
+}
+
+.testimonial {
+    margin-top: 100px;
+
+}
+
+.testimonial figure img {
+    width: 60px;
+    margin: 20px 10px 10px;
+    opacity: 0.6;
+}
+
+.testimonial figure img.utama {
+    width: 90px;
+    opacity: 1;
+    margin-top: 5px;
+}
+
+.testimonial figure h5 {
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    color: #1c2c5d;
+}
+
+.testimonial h5 {
+    text-align: center;
+    font-weight: 200;
+    font-style: italic;
+    font-size: 24px;
+}
+
+.testimonial figure p {
+    font-size: 12px;
+    color: #acacac;
+    margin-top: -5px;
+}
+
+.testimonial figcaption {
+    text-align: center;
+}
+
+.chef .best{
+    font-family: 'Satisfy', cursive;
+    font-size: 24px;
+    color: #FB9100;
+}
+
+@media (min-width: 992px) {
+    .nav-link {
+        margin-right: 40px;
+        font-family:'Roboto', sans-serif;
+        color: black !important;
+    }
+
+    .nav-link:hover::after{
+        content: '';
+        display: flex;
+        border-bottom: 3px solid #F8BD59;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    .jumbotron{
+        height: 900px;
+        text-align: center;
+    }
+
+    .jumbotron .display-4{
+        color: black;
+        font-size: 144px;
+        margin-top: 261px;
+
+    }
+
+    .jumbotron .lead{
+        font-size: 64px;
+        margin-top: -25px;
+    }
+
+    .about h2{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 48px;
+    }
+
+    .about p{
+        font-family: 'Satisfy', cursive;
+        color: #FB9100;
+        font-size: 24px;
+        margin-top: -10px;
+    }
+
+    .about .lorem{
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        color: black;
+        margin-top: -25px;
+    }
+
+    .menu{
+        margin-top: 180px;
+        background-color: #F6F6FF;
+        padding-bottom: 200px;
+    }
+
+    .menu h2{
+        margin-top: 25px;
+        font-size: 16px;
+    }
+
+    .menu .card-text{
+        margin-left:-12px;
+        margin-top: -15px;
+    }
+
+    .menu .card{
+        box-shadow: 0px 15px 15px 7px rgba(46, 4, 4, 0.15);
+        margin-right: 30px;
+    }
+
+    .menu .star{
+        width: 84.57px;
+        height: 15.85px;
+        margin-left: -12px;
+        margin-top: -30px;
+    }
+
+    .menu .discover{
+        text-align: center;
+        font-family: 'Satisfy', cursive;
+        font-size: 24px;
+        color: #FB9100;
+    }
+
+    .menu h2{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 48px;
+    }
+
+    .chef {
+        margin-top: 90px;
+    }
+
+    .chef h2{
+        text-align: center;
+    }
+
+    .chef p{
+        color: #FB9100;
+        font-size: 18px;
+    }
+
+    .chef .kitchen{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 48px;
+    }
+
+    .chef .best{
+        font-family: 'Satisfy', cursive;
+        font-size: 24px;
+        color: #FB9100;
+    }
+
+}
